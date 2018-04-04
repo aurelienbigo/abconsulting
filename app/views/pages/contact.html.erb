@@ -1,17 +1,18 @@
 <div class="container">
   <div class="contact-container">
-    <div class="telephone"><i class="fa fa-phone picto-contact" aria-hidden="true"></i>
-    <p>06 48 61 17 86</p>
+    <div class="telephone">
+      <i class="fa fa-phone picto-contact" aria-hidden="true"></i>
+      <p>06 48 61 17 86</p>
     </div>
     <div class="email"><i class="fa fa-envelope-o picto-contact" aria-hidden="true"></i>
-    <p><a href=mailto:contact@olb-environnement.fr>aurelien.bigo@gmail.com</a></p>
+      <p><a href=mailto:contact@olb-environnement.fr>aurelien.bigo@gmail.com</a></p>
     </div>
   </div>
   <div class="contact-form col-xs-12 col-sm-offset-3 col-sm-6 formulaire">
     <div class="form-area">
       <form action="https://getsimpleform.com/messages?form_api_token=11f8878eae9046772298fffc4d2e7972" method="post">
         <!-- ne pas oublier de modifier la redirection et le token correspondant à l'adresse olb -->
-        <input type='hidden' name='redirect_to' value='http://mbp-de-aurelien.lan:4567/thanks.html' />
+        <input type='hidden' name='redirect_to' value='http://localhost:3000/thanks.html' />
 
         <br style="clear:both">
           <h3 style="margin-bottom: 25px; text-align: center;">Formulaire de contact</h3>
@@ -52,7 +53,6 @@
     #map {
       display: flex;
       height: 50vh;
-      width: 50%;
     }
   </style>
 
@@ -85,7 +85,7 @@
           {
             "lat": 50.68752,
             "lng": 3.0523769999999786,
-            "infowindow": "<img src='logo.png' height='40'>"
+            "infowindow": "<img src='../../assets/images/logo.png' height='40'>"
           }
         ]
       );
