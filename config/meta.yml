@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "AB Web Lille"
+meta_title: "AB Web Lille - Accompagnement web SEO et dev"
+meta_description: "AB Web Lille est une agence d'accompagnement web. Nous proposons nos services à toutes les entreprises qui souhaitent améliorer leur présence sur internet. Grâce à notre double casquette nous pouvons vous accompagner sur l'amélioration visuelle de votre site ainsi que l'optimisation référentielle (SEO) par l'amélioration de vos contenu."
+meta_image: "logo.png"                           # Une image dans votre dossier app/assets/images/
+twitter_account: "@orelbigoo"              # indispensable pour les Twitter Cards
