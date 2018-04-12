@@ -14,6 +14,16 @@
     <meta name="twitter:title" content="Influoo - Boost your communication with influencers">
     <meta name="twitter:description" content="Influoo is the new platform to find influencers matching your brand and products. Use their community to grow yours.">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117427067-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117427067-1');
+    </script>
+
     <%= render 'shared/metatags' %>
 
     <%= csrf_meta_tags %>
